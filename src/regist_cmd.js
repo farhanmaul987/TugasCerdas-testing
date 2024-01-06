@@ -44,6 +44,11 @@ const commands = [
             }
         ]
     },
+    // Custom Embeds
+    {
+        name: 'embed',
+        description: 'Create an embed!',
+    },
     // Slash Command Ping
     {
         name: 'ping',
