@@ -30,6 +30,18 @@ client.on('ready', () => {
 client.on('interactionCreate', (interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
+    if (interaction.commandName === 'bot') {
+        return interaction.reply('I have said to you!');
+    }
+
+    // Event Slash Command Options and Choices
+    if (interaction.commandName === 'add') {
+        const num1 = interaction.options.get('first_number').value;
+        const num2 = interaction.options.get('second_number').value;
+
+        interaction.reply(`The sum of ${num1} + ${num2} = ${num1 + num2}`);
+    }
+    // Event Slash Command Ping
     if (interaction.commandName === 'ping') {
         return interaction.reply('Pong!');
     }
@@ -68,3 +80,4 @@ client.on('messageCreate', (message) => {
 
 // Token dari Discord Developers
 client.login(process.env.TOKEN);
+// Jalankan bot dengan ketik "npm run start" atau "npm run dev" di terminal

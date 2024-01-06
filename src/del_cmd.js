@@ -14,3 +14,5 @@ rest.delete(Routes.applicationGuildCommand(
 ))
     .then(() => console.log('Slash Commands were deleted successfully!'))
     .catch(console.error);
+
+// Jalankan kode penghapusan dengan ketik "npm run del" di terminal
