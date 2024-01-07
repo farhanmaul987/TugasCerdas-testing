@@ -1,3 +1,5 @@
+// HANYA PEMBELAJARAN BASIC, LEBIH LANJUT PINDAH KE INDEX.JS
+
 // Pemanggilan file dotenv untuk keperluan token
 require('dotenv').config();
 
