@@ -1,0 +1,1 @@
+- Folder interactionCreate berisi interaction yang ter trigger oleh folder
