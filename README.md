@@ -2,22 +2,15 @@
   <a href="" rel="noopener">
  <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
 </p>
-<h3 align="center">tugascerdas-testing</h3>
+<h3 align="center">TUAGSCERDAS BOT TESTING</h3>
 
-<div align="center">
+<p align="center">
+<a href="https://github.com/farhanmaul987"><img title="Author" src="https://img.shields.io/badge/Author-farhanmaul987-red.svg?style=for-the-badge&logo=github"></a>
+</p>
 
-[![Hackathon](https://img.shields.io/badge/hackathon-name-orange.svg)](http://hackathon.url.com)
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-
-</div>
-
----
-
-<p align="center"> Few lines describing your project.
-    <br> 
+<p style="text-align: justify;">
+Bot Discord ini bertujuan untuk memberikan pengalaman pengelolaan tugas yang lebih cerdas dan adaptif. Solusi yang ditawarkan dalam bot ini adalah untuk mengatur prioritas, menyusun jadwal, dan memberikan rekomendasi yang lebih tepat berdasarkan pola pengguna. Dengan memahami kebiasaan dan preferensi individu, bot ini diharapkan dapat meningkatkan efisiensi dalam menyelesaikan pekerjaan sehari-hari.
+<br> 
 </p>
 
 ## 📝 Table of Contents
@@ -111,9 +104,9 @@ Add notes about how to use the system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@farhanmaul987](https://github.com/farhanmaul987) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
+See also the list of [contributors](https://github.com/farhanmaul987/tugascerdas-testing/contributors)
 who participated in this project.
 
 ## 🎉 Acknowledgments <a name = "acknowledgments"></a>
