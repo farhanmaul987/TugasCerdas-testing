@@ -1,1 +1,0 @@
-// Menghasilkan console.log saat bot aktif
