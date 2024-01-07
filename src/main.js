@@ -7,8 +7,9 @@ require('dotenv').config();
 // Lalu ubah client.login(process.env.token.); menjadi client.login(token);
 
 // Pemanggilan Library
-const { Client, IntentsBitField, EmbedBuilder } = require('discord.js');
+const { Client, IntentsBitField, EmbedBuilder, ActivityType } = require('discord.js');
 // EmbedBuilder: Membuat Embed
+// ActivityType: Mengatur status/presence
 
 // Inisialisasi Kebutuhan
 const client = new Client({
@@ -20,11 +21,45 @@ const client = new Client({
     ],
 });
 
+// Random Status/Presence
+let status = [
+    {
+        name: 'Skripsi!!!',
+        type: ActivityType.Playing,
+    },
+    {
+        name: 'Random Streamer',
+        type: ActivityType.Streaming,
+        url: 'https://www.twitch.tv/jingggxd'
+    },
+    {
+        name: 'Revisi!',
+        type: ActivityType.Competing,
+    },
+];
+
 // Berbagai Notif Ketika Bot Online
 client.on('ready', () => {
     // console.log(`Bot ${client.user.tag} Activated!`);
     console.log(`Bot ${client.user.username} Activated!`);
     // console.log(`Bot ${client.user.id} Activated!`);
+
+    // Bot Status/Presence
+    // client.user.setActivity({
+    // Default Presence
+    // name: 'Skripsi!!!',
+    // type: ActivityType.Watching,
+    // Jika type nya Streaming
+    // name: 'Skripsi!!!',
+    // type: ActivityType.Streaming,
+    // url: 'https://twitch.tv/username'
+    // });
+
+    // Random Status/Presence
+    setInterval(() => {
+        let random = Math.floor(Math.random() * status.length);
+        client.user.setActivity(status[random])
+    }, 10000);
 });
 
 // Mengirim Pesan
