@@ -1,0 +1,3 @@
+- Folder interactionCreate berisi interaction yang ter trigger oleh folder
+- Folder ready akan menangani kode apa pun yang ingin dijalankan ketika event ready di trigger
+- 

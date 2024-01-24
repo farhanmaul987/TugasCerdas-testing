@@ -1,4 +1,5 @@
 require('dotenv').config();
+// Import Class Client dan IntentsBitField dari library
 const { Client, IntentsBitField } = require('discord.js');
 const eventHandler = require('./handlers/eventHandler');
 
