@@ -7,7 +7,7 @@ module.exports = {
 
     callback: (client, interaction) => {
         interaction.reply({
-            content: `Ping: ${client.ws.ping}ms`,
+            content: `Ping! ${client.ws.ping}ms`,
             ephemeral: true,
         });
     },
