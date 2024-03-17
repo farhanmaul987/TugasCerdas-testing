@@ -10,7 +10,7 @@ rest.delete(Routes.applicationGuildCommand(
     process.env.CLIENT_ID,
     process.env.GUILD_ID,
     // Command ID (https://discordjs.guide/slash-commands/deleting-commands.html#deleting-specific-commands)
-    '1193056302218350635'
+    '1196794860980686868'
 ))
     .then(() => console.log('Slash Commands were deleted successfully!'))
     .catch(console.error);
